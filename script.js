@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const input = document.getElementById('searchInput');
-    const qrContainer = document.querySelector('.qr-container');
+    const qrContainer = document.querySelector('.qr_container');
     const form = document.querySelector('.search-form');
 
     const downloadBtn = document.getElementById('downloadBtn');

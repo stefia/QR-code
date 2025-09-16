@@ -14,7 +14,7 @@ body {
     font-size: 16px;
 }
 .page-search {
-    padding-top: 200px;
+    padding-top: 300px;
 }
 .page-qr {
     margin-top: 32px;
@@ -66,7 +66,7 @@ body {
 }
 
 
-.qr-circle {
+.qr_circle {
     width: 300px;
     height: 300px;
     margin-top: 96px;
@@ -76,17 +76,23 @@ body {
     align-items: center;
     justify-content: center;
 }
-.qr-actions {
+.qr_actions {
     margin-top: 64px;
     display: flex;
     gap: 32px;
 }
-.qr-actions .btn {
+.qr_actions .btn {
     display: flex;
     gap: 16px;
     align-items: center;
 }
-.qr-container {
+.qr_container {
     border: 30px solid #F2F5F9;
     border-radius: 10px;
+}
+
+@media (max-width: 640px) {
+    .search-form {
+        width: 340px;
+    }
 }
