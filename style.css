@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url("resources/qa-bg.jpg") top / cover no-repeat;
+    display: grid;  
+    justify-content: center; 
+    align-items: start;
+    color: #F2F5F9;
+    font-size: 16px;
+}
+.page-search {
+    padding-top: 200px;
+}
+.page-qr {
+    margin-top: 32px;
+    padding: 0 72px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-search .container {
+    max-width: 620px;
+}
+
+
+.search-form {
+    position: relative;
+    width: 620px;
+}
+.search-form_input {
+    width: 100%;
+    background-color: #030616;
+    margin-top: 32px;
+    padding: 24px 32px;
+    border-radius: 20px;
+    border: 2px solid #263FA9;
+}
+.search-form_input::placeholder, 
+.btn, 
+.search-form_input {
+    color: #F2F5F9;
+    font-size: 16px;
+}
+.btn {
+    padding: 18px 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #263FA9;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #182f96;
+}
+.search-form_btn {
+    position: absolute;
+    right: 8px;
+    top: 40px;
+}
+
+
+.qr-circle {
+    width: 300px;
+    height: 300px;
+    margin-top: 96px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.164);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr-actions {
+    margin-top: 64px;
+    display: flex;
+    gap: 32px;
+}
+.qr-actions .btn {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.qr-container {
+    border: 30px solid #F2F5F9;
+    border-radius: 10px;
+}
